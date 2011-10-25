@@ -28,6 +28,7 @@ all_from 'lib/App/mepan.pm';
 
 requires 'Getopt::Long' => '2.37';
 requires 'Futl'         => '0.38';
+requires 'JSON'         => '2.53';
 
 test_requires 'Test::More'     => '0.88';
 test_requires 'Test::Requires' => '0.06';
