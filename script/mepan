@@ -1,0 +1,14 @@
+#!perl
+use strict;
+use warnings;
+use App::mepan;
+
+my $app = App::mepan->new(@ARGV);
+$app->run();
+__END__
+
+=head1 DESCRIPTION
+
+See L<App::mepan>.
+
+=cut
